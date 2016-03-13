@@ -24,8 +24,8 @@ class Sender(Singleton):
     TOKEN_TIMESTAMP = "TOKEN_TIMESTAMP"
 
     def __init__(self):
-        self._corp_id = "wx9c7b74d95c7f422a"
-        self._secret = "XX-st_8S3uR8VWOjP-xp7e4QFq2jo3wQEsjsUB39ukSdRTYmwnU1vDiseGGULtHH"
+        self._corp_id = "your_corp_id"
+        self._secret = "your_secret"
         self.diff = 7000
 
     def send(self, text):
